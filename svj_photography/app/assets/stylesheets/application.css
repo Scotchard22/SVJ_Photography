@@ -16,6 +16,8 @@
 
 body{
   background-color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
 }
 
 .nav-wrapper{

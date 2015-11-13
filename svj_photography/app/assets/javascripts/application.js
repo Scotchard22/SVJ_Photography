@@ -19,4 +19,9 @@
       $('.parallax').parallax();
     });
 
- $(".button-collapse").sideNav();   
+var bumpIt = function() {
+        $('body').css('margin-bottom', $('#footer').height());
+      },
+      didResize = false;
+​
+  bumpIt();

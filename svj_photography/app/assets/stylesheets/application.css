@@ -15,19 +15,28 @@
  */
 
 body{
-  background-color: white;
+  background-color: black;
 }
 
 .nav-wrapper{
   background-color: black;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 .oh {
   overflow: hidden;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  // clear: both;
+  clear: both;
 }
+
+
+

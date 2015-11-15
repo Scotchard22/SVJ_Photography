@@ -61,7 +61,7 @@ i{
 }
 
 #contact_form{
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .brand-logo{
@@ -81,6 +81,119 @@ textarea{
 .bio_links{
  color: #2bbbad;
 }
+
+#contact_image { 
+   position: relative; 
+   width: 100%; 
+}
+
+#contact_text{ 
+   position: absolute; 
+   top: 250px; 
+   left: 0; 
+   width: 100%; 
+   font-size: 80px !important;
+}
+
+#justin_image { 
+   position: relative; 
+   width: 100%; 
+}
+
+#justin_text{ 
+   position: absolute; 
+   top: 250px; 
+   left: 0; 
+   width: 100%; 
+   font-size: 80px !important;
+}
+
+#vlad_image { 
+   position: relative; 
+   width: 100%; 
+}
+
+#vlad_text{ 
+   position: absolute; 
+   top: 250px; 
+   left: 0; 
+   width: 100%; 
+   font-size: 80px !important;
+}
+
+#scot_image { 
+   position: relative; 
+   width: 100%; 
+}
+
+#scot_text{ 
+   position: absolute; 
+   top: 250px; 
+   left: 0; 
+   width: 100%; 
+   font-size: 80px !important;
+}
+
+#home_image { 
+   position: relative; 
+   width: 100%; 
+}
+
+#home_button1{ 
+   text-decoration: none;
+   border: solid 2px;
+   background-color: transparent;
+   position: absolute; 
+   top: 350px; 
+   left: 575; 
+   font-size: 45px;
+}
+
+#home_button2{ 
+   text-decoration: none;
+   border: solid 2px;
+   background-color: transparent;
+   position: absolute; 
+   top: 950px; 
+   left: 575; 
+   font-size: 45px;
+}
+
+#home_button3{ 
+   text-decoration: none;
+   border: solid 2px;
+   background-color: transparent;
+   position: absolute; 
+   top: 1550px; 
+   left: 575; 
+   font-size: 45px;
+}
+
+#home_button4{ 
+   text-decoration: none;
+   border: solid 2px;
+   background-color: transparent;
+   position: absolute; 
+   top: 2150px; 
+   left: 575; 
+   font-size: 45px;
+}
+
+#home_button5{ 
+   text-decoration: none;
+   border: solid 2px;
+   background-color: transparent;
+   position: absolute; 
+   top: 2750px; 
+   left: 575; 
+   font-size: 45px;
+}
+
+
+
+
+
+
 
 
 

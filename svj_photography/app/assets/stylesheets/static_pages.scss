@@ -21,8 +21,8 @@ h1{
 }
 
 #bio{
-  margin-right: 600px;
-  margin-bottom: 200px;
+  margin-right: 100px;
+  margin-top: -50px;
   color: white;
   font-size: 20px;
 }
@@ -55,3 +55,35 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
+
+i{
+  color: white;
+}
+
+#contact_form{
+  margin-top: 80px;
+}
+
+.brand-logo{
+  margin-left: 20px;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email] {
+  font-size: 22px !important;
+}
+
+textarea{
+  font-size: 22px !important;
+}
+
+.bio_links{
+ color: #2bbbad;
+}
+
+
+
+
+
+

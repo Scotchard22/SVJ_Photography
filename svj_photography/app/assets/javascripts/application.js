@@ -44,3 +44,15 @@ $(document).ready(function(){
     bumpIt();
   });
 });
+
+  $('#textarea1').val('New Text');
+  $('#textarea1').trigger('autoresize');
+
+   $(document).ready(function() {
+    $('select').material_select();
+  });
+
+    $(document).ready(function() {
+    $('input#input_text, textarea#textarea1').characterCounter();
+  });
+           

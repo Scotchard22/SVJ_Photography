@@ -16,11 +16,8 @@
 //= require_tree .
 
  $(document).ready(function(){
-      $('.parallax').parallax();
+      $(".button-collapse").sideNav();
     });
-
-$(document).ready(function(){
-  $(".button-collapse").sideNav({edge: 'left'});
 ​
   var bumpIt = function() {
         $('body').css('margin-bottom', $('.footer').height());
@@ -55,4 +52,6 @@ $(document).ready(function(){
     $(document).ready(function() {
     $('input#input_text, textarea#textarea1').characterCounter();
   });
+
+  
            

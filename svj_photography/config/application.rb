@@ -6,6 +6,8 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+HOSTNAME = ENV['HOSTNAME'] || 'localhost'
+
 module SvjPhotography
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.

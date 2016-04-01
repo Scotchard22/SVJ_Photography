@@ -19,6 +19,7 @@ h2{
 }
 
 .profile{
+  border-radius: 200px;
   margin-left: 70px;
   margin-right: 40px;
   margin-top: 50px;
@@ -163,6 +164,11 @@ textarea{
    font-size: 80px !important;
 }
 
+.submit{
+  background-color: #ff8080 !important;
+  border-radius: 30px !important;
+}
+
 #justin_image { 
    position: relative; 
    width: 100%; 
@@ -266,4 +272,7 @@ textarea{
   text-decoration: none !important;
 }
 
+.about-us{
+  margin-right: 25px;
+}
 

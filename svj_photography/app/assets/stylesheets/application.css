@@ -22,7 +22,7 @@ body{
 }
 
 .nav-wrapper{
-  background-color: black;
+  background-color: #262626;
 }
 
 html {
@@ -39,7 +39,7 @@ html {
   bottom: 0;
   width: 100%;
   clear: both;
+  background-color: #262626;
 }
-
 
 

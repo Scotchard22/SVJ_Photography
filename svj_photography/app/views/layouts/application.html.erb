@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link href="favicon.ico" rel="shortcut icon"></link>
+    <title>SvjPhotography</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <!-- Compiled and minified CSS
+    -->
+  </head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/css/materialize.min.css" rel="stylesheet"></link>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet" type="text/css"></link>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css"></link>
+  <body>
+    <%= render 'layouts/navbar' %>
+    <div class="oh"></div>
+    <%= yield %>
+  </body>
+  <footer class="footer">
+    <%= render 'layouts/footer' %>
+  </footer>
+</html>

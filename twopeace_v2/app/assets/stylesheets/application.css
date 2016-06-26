@@ -1,0 +1,267 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ *{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hidden{
+  display: none;
+}
+
+.grid-container *{
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box;
+}
+
+.row:before,
+.row:after{
+  content:"";
+    display: table ;
+  clear: both;  
+}
+
+[class*="col-"]{
+  float: left;
+  min-height: 1px;
+  width: 50%;
+  padding: 12px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col_1{
+  width: 100%;
+}
+
+.col_2{
+  width: 50%;
+}
+
+.col_3{
+  width: 32%;
+}
+
+.col_4{
+  width: 25%;
+}
+
+a:link {
+  text-decoration: none !important;
+  font-size: 15px;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none !important;
+  font-size: 20px;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #F16B6F;
+}
+
+a:active {
+  text-decoration: none !important;
+}
+
+.nav{
+  height: 112px;
+}
+
+.title{
+  font-size: 130% !important;
+  padding-top: 15px !important;
+}
+
+.mobile_links{
+  font-size: 140%;
+  padding-top: 10px;
+}
+
+.nav_left{
+  float: left;
+  width: 20%;
+  padding: 15px 0 15px 0px;
+}
+
+.nav_right{
+  float: right;
+  width: 80%;
+  margin: 2.5% 0 2.5% 0;
+  padding: 15px 0 15px 0;
+}
+
+#twopeacelogo{
+  height: 80px;
+  width: 210px;
+}
+
+.header-links{
+  text-align: right;
+ }
+
+.header-links a{
+  margin: 0 auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 120%;
+ }
+
+.mobile_nav{
+  display: none;
+  margin: 2% 0 2% 0;
+}
+
+.footer_nav{
+  height: 40px; 
+  background-color: #d6ecfa;
+}
+
+ .footer-links{
+  text-align: center;
+  padding-top: 10px;
+ }
+
+.footer-links a{
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 110%;
+ }
+
+ .headers{
+  background-color: #d6ecfa;
+  max-height: 500px;
+  width: 100%;
+ }
+
+ #crew_title{
+  text-align: center;
+  padding: 17% 0 17% 0;
+  font-size: 300%;
+  color: #F16B6F;
+ }
+
+ .text_space{
+  text-align: center;
+ }
+
+ .slogan{
+  font-size: 180%;
+  padding: 15px 5px 15px 5px;
+ }
+
+.underline{
+  width: 80px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ .para{
+  font-size: 120%;
+  padding: 15px 5px 15px 5px;
+ }
+
+ .work_para{
+  font-size: 120%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px 5px 15px 5px;
+
+ }
+
+ .prof_pic{
+  max-height: 400px;
+  margin: 1% 0 1% 0;
+  width: 400px;
+ }
+
+ .info{
+  font-size: 110%;
+  margin-bottom: 15px;
+ }
+
+
+
+ /*Media Queries*/
+
+ @media all and (max-width:980px){
+
+.header-links{
+  padding-top: 10px !important;
+ }
+
+.header-links a{
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+ }
+
+ .footer-links{
+  padding-top: 10px !important;
+ }
+
+.footer-links a{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 100% !important;
+ }
+}
+
+@media all and (max-width:850px){
+.nav{
+  display: none !important;
+}
+
+nav a{
+  font-size: 80% !important;
+}
+
+.mobile_nav{
+  display: block !important;
+  text-align: center !important;
+}
+
+.footer-links a{
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  font-size: 100% !important;
+ }
+
+  #crew_title{
+  font-size: 250%;
+ }
+
+ #crew_slogan{
+  font-size: 160%;
+ }
+
+  #crew_para{
+  font-size: 100%;
+  padding: 15px 5px 15px 5px;
+ }
+
+ .prof_pic{
+  margin: 1% 0 1% 0 !important;
+  height: 350px;
+  width: 350px;
+ }
+}
